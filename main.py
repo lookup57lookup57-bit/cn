@@ -7,13 +7,13 @@ token = '8284985821:AAFdkbPPknf5aQh27B2QJtQAQ9GTrbLJ_OQ'
 bot=telebot.TeleBot(token,parse_mode="HTML")
 @bot.message_handler(commands=["start"])
 def start(message):
-        if not str(message.chat.id) == '7696619693':
+        if not str(message.chat.id) == '7631724758':
                 bot.reply_to(message, "You cannot use the bot to contact developers to purchase a bot subscription @AshitaZYN")
                 return
         bot.reply_to(message,"Send the file now")
 @bot.message_handler(content_types=["document"])
 def main(message):
-        if not str(message.chat.id) == '7696619693':
+        if not str(message.chat.id) == '7631724758':
                 bot.reply_to(message, "You cannot use the bot to contact developers to purchase a bot subscription @AshitaZYN")
                 return
         dd = 0
