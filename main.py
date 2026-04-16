@@ -3,7 +3,7 @@ import telebot,time
 from telebot import types
 from gatet import Tele
 import os
-token = '8284985821:AAFdkbPPknf5aQh27B2QJtQAQ9GTrbLJ_OQ'
+token = '8150326438:AAG5Z2GWtilwGG6P_LnHtAl9dj3EQywJdSo'
 bot=telebot.TeleBot(token,parse_mode="HTML")
 @bot.message_handler(commands=["start"])
 def start(message):
